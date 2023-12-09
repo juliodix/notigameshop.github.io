@@ -1,0 +1,1015 @@
+* {
+    margin: 0%;
+    padding: 0%
+}
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    text-transform: capitalize;
+
+}
+
+/*<<<<<<<<<<<< BARRA TITULO Y LOGO >>>>>>>>>>>>>>>>>>*/
+h1 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.822);
+    padding: 1%;
+    margin: 0%;
+}
+
+/*<<<<<<<<<<<<<< BARRA NAVEGACION >>>>>>>>>>>>>>>>>>>>>>*/
+nav ul {
+    background-color: rgba(73, 73, 73, 0.877);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    padding: 10px;
+    width: 150px;
+}
+
+nav li:hover {
+    background-color: rgb(49, 49, 47);
+}
+
+/*<<<<<<<<<<<<<<<<<< PAGINA INICIO >>>>>>>>>>>>>>>>>>>>*/
+
+.titulo-inicio h2 {
+    margin-left: 2cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2b2929;
+    font-size: 0.9cm;
+    border-left: 8px solid #033af0;
+    padding-left: 20px;
+
+}
+
+
+.post-list-inicio {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+    float: left;
+    margin-right: 0.5cm;
+    margin-left: 1.5cm;
+
+}
+
+.content-inicio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+    max-width: 900px;
+    margin: auto;
+
+}
+
+.postini-img-1 {
+    background: url(imagenes/gta.avif );
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+}
+
+.postini-img-2 {
+    background: url(imagenes/gamepass.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+}
+
+.postini-img-3 {
+    background: url(imagenes/robocop.webp);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postini-img-4 {
+    background: url(imagenes/halo.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postini-img-5 {
+    background: url(imagenes/grfaicogta6.webp);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postini-img-6 {
+    background: url(imagenes/barbie.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postini-img-7 {
+    background: url(imagenes/bobesponja.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postini-img-8 {
+    background: url(imagenes/paranoid.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postini {
+    box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.185);
+    overflow: hidden;
+    transition: .2s;
+}
+
+.postini:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 1px 14px 2px rgba(0, 0, 0, 0.247);
+}
+
+.postini-header {
+    width: 100%;
+    height: 200;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.postini:hover .postini-img-1 .postini:hover .postini-img-2 .postini:hover .postini-img-3 {
+    transform: scale(1.1);
+}
+
+.post-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.post-body span {
+    display: inline-block;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.post-body h2 {
+    margin-bottom: 15px;
+}
+
+.post-body p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.post-body .postini-link {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background: rgb(33, 33, 141);
+    color: #fff;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.1);
+}
+
+.post-body .postini-link:hover {
+    background: #065fc5;
+    box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+/* <<<<<<<<<<<<<<<< ASIDE >>>>>>>>>> */
+
+
+
+.aside1 {
+
+    transition: 0.2s;
+    float: right;
+    margin-right: 1.5cm;
+}
+
+.aside1 img {
+    width: 250px;
+    height: 250px;
+
+}
+
+.aside2 {
+    margin-right: 1.5cm;
+    float: right;
+    margin-top: 1cm;
+
+}
+
+.aside2 img {
+    width: 250px;
+}
+
+.aside3 {
+    margin-right: 1.5cm;
+    float: right;
+    margin-top: 1cm;
+
+}
+
+.aside3 img {
+    width: 250px;
+}
+
+/*<<<<<<<<<< FOOTER >>>>>>>>>>*/
+.containerf {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #f1ecec;
+    padding: 80px 0;
+}
+.footer img{
+   opacity: 30%;
+
+}
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-links h4 {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #0a7cff;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footer-links ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #0044ff;
+    padding-left: 6px;
+}
+
+.social-links a {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(73, 73, 73, 0.966);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: rgb(240, 240, 240);
+    transition: all .5s ease;
+}
+
+.social-links a:hover {
+    background-color: rgba(16, 68, 209, 0.911);
+}
+
+@media(max-width:991px) {
+    .footer-row {
+        text-align: center;
+    }
+
+    .footer-links {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+
+/*<<<<<<<<<<<<<<<<< PAGINA NOTICIAS >>>>>>>>>>>>>>>>>>>> */
+.titulo-noticias h2 {
+    margin-left: 4.3cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2b2929;
+    font-size: 0.9cm;
+    border-left: 8px solid #033af0;
+    padding-left: 20px;
+    margin-top: 30px;    
+    }
+
+.post-list-noticias {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+    float:center;
+    margin-right: 0.5cm;
+    margin-left: 0;
+
+}
+
+.content-noticias {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.postnoti-img-1 {
+    background: url(imagenes/noticia2.avif );
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+}
+
+.postnoti-img-2 {
+    background: url(imagenes/noticia1.avif );
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+}
+
+.postnoti-img-3 {
+    background: url(imagenes/noticia3gta.avif);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postnoti-img-4 {
+    background: url(imagenes/noticia4.avif);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postnoti-img-5 {
+    background: url(imagenes/noticia5.avif);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postnoti-img-6 {
+    background: url(imagenes/noticia6.avif);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postnoti-img-7 {
+    background: url(imagenes/noticia7.avif);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postnoti-img-8 {
+    background: url(imagenes/cristiano.png);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postnoti {
+    box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.185);
+    overflow: hidden;
+    transition: .2s;
+}
+
+.postnoti:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 1px 14px 2px rgba(0, 0, 0, 0.247);
+}
+
+.postnoti-header {
+    width: 100%;
+    height: 200;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.postnoti:hover .postnoti-img-1 .postnoti:hover .postnoti-img-2 .postnoti:hover .postnoti-img-3 {
+    transform: scale(1.1);
+}
+
+.postnoti-body {
+    padding: 15px;
+    text-align: center;
+   
+}
+
+.postnoti-body span {
+    display: inline-block;
+    color: #999;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+.postnoti-body h4 {
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.postnoti-body p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size:small;
+    padding: 20px;
+    border-left: 2px solid #033af0;
+    padding-left: 20px;
+
+    
+}
+
+.postnoti-body .postnoti-link {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background: rgb(30, 30, 143);
+    color: #fff;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.1);
+}
+
+.postnoti-body .postnoti-link:hover {
+    background: #065fc5;
+    box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+
+
+/*<<<<<<<<<<<<<<<<< PAGINA TIENDA >>>>>>>>>>>>>>>>>>>> */
+
+.titulo-tienda h2 {
+    margin-left: 4.3cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2b2929;
+    font-size: 0.9cm;
+    border-left: 8px solid #033af0;
+    padding-left: 20px;
+    margin-top: 40px;  
+    margin-bottom: 1.5cm;  
+    }
+.post-list-tienda {
+    display: flex;
+    min-height:   100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+    float:center;
+    margin-right: 0.5cm;
+    margin-left: 0;
+    margin-top: -1cm;
+
+}
+
+.content-tienda {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+
+}
+.star{
+    color:gold ;
+    transition: color 0.3s;
+    cursor:pointer;
+}
+
+
+.postienda-img-1 {
+    background: url(imagenes/ark1.jpg);
+    width: 100%;
+    height:300px;
+    background-size: cover;
+    background-position:center ;
+    transition: 0.2s;
+    
+    
+}
+
+.postienda-img-2 {
+    background: url(imagenes/img2.jpg );
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+}
+
+.postienda-img-3 {
+    background: url(imagenes/img3.png);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postienda-img-4 {
+    background: url(imagenes/img4.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postienda-img-5 {
+    background: url(imagenes/img5.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postienda-img-6 {
+    background: url(imagenes/img6.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postienda-img-7 {
+    background: url(imagenes/img7.avif);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postienda-img-8 {
+    background: url(imagenes/img8.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postienda-img-9 {
+    background: url(imagenes/img9.png);
+    width: 100%;
+    height:300px;
+    background-size: cover;
+    background-position:center ;
+    transition: 0.2s;
+    
+    
+}
+
+.postienda-img-10 {
+    background: url(imagenes/img10.jpg );
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+}
+
+.postienda-img-11 {
+    background: url(imagenes/img11.jpeg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postienda-img-12 {
+    background: url(imagenes/img12.webp);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postienda-img-13 {
+    background: url(imagenes/img13.jpeg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postienda-img-14 {
+    background: url(imagenes/img14.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postienda-img-15 {
+    background: url(imagenes/img15.webp);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postienda-img-16 {
+    background: url(imagenes/img16.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+.postienda {
+    box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.185);
+    overflow: hidden;
+    transition: .2s;
+}
+
+.postienda:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 1px 14px 2px rgba(0, 0, 0, 0.247);
+}
+
+.postienda-header {
+    width: 100%;
+    height: 200;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.postienda:hover .postienda-img-1 .postienda:hover .postienda-img-2 .postienda:hover .postienda-img-3 {
+    transform: scale(1.1);
+}
+
+.postienda-body {
+    padding: 15px;
+    text-align: center;
+    
+   
+}
+
+.postienda-body span {
+    display: inline-block;
+    color: rgb(223, 22, 22);
+    margin-bottom: 4px;
+    font-size: small;
+    margin-top: 6px;
+}
+
+.postienda-body h4 {
+    margin-bottom: 2px;
+    color: #000000;
+    margin-top: 3px;
+    font-size: 0.6cm ;
+
+}
+
+.postienda-body p {
+    line-height: 1.5;
+    margin-bottom: 3px;
+    color: #000000;
+    font-size:small;
+    padding: 5px;
+    
+    
+    
+}
+
+.postienda-body .postienda-link {
+    display: block;
+    text-decoration: none;
+    padding: 6px;
+    background: rgb(255, 0, 0);
+    color: #fff;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.459);
+}
+
+.postienda-body .postienda-link:hover {
+    background: #065fc5;
+    box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+/*<<<<<<<<<<<<<<<<< PAGINA CONTACTO >>>>>>>>>>>>>>>>>>>> */
+.contacto {
+    text-align: center;
+    width: 55%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.144);
+    background-position: 23%;
+    object-position: 22%;
+    border-radius: 25px;
+}
+.post-list-contacto {
+    display: flex;
+    min-height:   100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 15px;
+    float:center;
+    margin-right: 9cm;
+    margin-left: 9cm;
+    margin-top: -1cm;
+
+}
+
+.content-contacto {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+
+}
+.postcont {
+    box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.185);
+    overflow: hidden;
+    transition: .2s;
+}
+
+.postcont:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 1px 14px 2px rgba(0, 0, 0, 0.247);
+}
+
+.postcont-header {
+    width: 100%;
+    height: 200;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+
+.postcont-body {
+    padding: 15px;
+    text-align: center;
+    
+   
+}
+
+.postcont-body span {
+    display: inline-block;
+    color: rgb(223, 22, 22);
+    margin-bottom: 4px;
+    font-size: small;
+    margin-top: 6px;
+}
+
+.postcont-body h4 {
+    margin-bottom: 2px;
+    color: #0447ffb4;
+    margin-top: 3px;
+    font-size: 0.6cm ;
+    margin-bottom: 1cm;
+    text-align: center;
+
+}
+
+.postcont-body p {
+    line-height: 1.5;
+    margin-bottom: 3px;
+    color: #000000;
+    font-size:small;
+    padding: 5px;
+    text-align: left;
+    border-left: 2px solid #013cff;
+    padding-left: 20px;
+    font-size:medium ;
+    
+    
+    
+}
+
+.postcont-body .postcont-link {
+    display: block;
+    text-decoration: none;
+    padding: 6px;
+    background: rgb(255, 0, 0);
+    color: #fff;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.459);
+}
+
+.posticont-body .postcont-link:hover {
+    background: #065fc5;
+    box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    }
+
+/*<<<<<<<<<<<<<<<<<<<<<< FORMULARIO >>>>>>>>>>>>>>>>>>*/
+.contenidoperfil {
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.formacontenido {
+    width: 100%;
+    max-width: 450px;
+    background-color: rgba(0, 0, 0, 0.726);
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 25px;
+
+}
+
+.formacontenido h2 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.formacontenido h2::after {
+    container: "";
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background-color: rgb(240, 247, 247);
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.input-field {
+    background-color: #9696964d;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    transition: max-height 05s;
+    overflow: hidden;
+
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 18px 15px;
+    color: aliceblue;
+
+}
+
+input::placeholder {
+    color: aliceblue;
+}
+
+.input-field i {
+    margin-left: 15%;
+    color: rgb(255, 255, 255)
+}
+
+form p {
+    color: rgb(228, 230, 231);
+    text-align: left;
+    font-size: 13px;
+}
+
+font p a {
+    color: rgb(100, 174, 248);
+    margin-left: 5px;
+
+}
+
+.btn-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn-field button {
+    flex-basis: 48%;
+    font-size: 16px;
+    background-color: rgba(10, 73, 247, 0.753);
+    color: aliceblue;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.input-group {
+    height: 250px;
+}
+
+.btn-field button.disable {
+    background-color: aliceblue;
+    color: black;
+}

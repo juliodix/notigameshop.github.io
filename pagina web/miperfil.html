@@ -1,0 +1,113 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head>
+<title>NotiGameShop</title>
+<style>
+ @import "style.css";
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="icon" href="imagenes/alien(3).ico">
+<meta charset="utf-8>"
+</head>
+<body>
+    <font face="verdana" </font>
+    <h1><font color="red">Noti<font color="aqua">Game<font color="yellow">Shop 
+        <img src=" imagenes/logoo.png" alt="menu" height="40" width="60" /></h1>    
+        <nav>
+        <ul>
+                <font color="red"</font>
+                    <li><a href="index.html">Inicio</a></li>
+                    <font color="blue"</font>
+                    <li><a href="Noticias.html">Noticias</a></li>
+                    <font color="green"</font>
+                    <li><a href="Tienda.html">Tienda</a></li>
+                    <font color="yellow"</font>
+                    <li><a href="micuenta.html">Contacto</a></li>
+                    <li><a href="miperfil.html">Mi perfil</a></li>
+                </li>
+            </ul>
+        </nav>
+        <div class="titulo-tienda">
+            <h2>Inicia sesion o Registrate</h2>
+        </div>
+
+        <div class="contenidoperfil">
+            <div class="formacontenido">
+                <h2 id="titulo">Registrate</h2>
+                <form>
+                    <div class="input-grupo">
+
+                        <div class="input-field" id="nameinput">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" placeholder="Nombre">
+                        </div>
+                        <div class="input-field">
+                            <i class="fa-solid fa-envolepe"></i>
+                            <input type="email" placeholder="Correo">
+                        </div>
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" placeholder="contrasena">
+                        </div>
+                        <p>Olvidaste tu contrasena <a href="#">clic aqui</a></p>
+                    </div>
+                    <div class="btn-field">
+                        <button type="button" onclick="cancelar()" class="cancel">Cancelar</button>
+                      <button type="submit">Iniciar Sesión</button>
+
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+        <script>
+            function cancelar() {
+                // Puedes agregar aquí cualquier lógica que desees cuando se presiona el botón "Cancelar"
+                alert("Operación cancelada");
+            }
+        </script>
+
+<script src="script.js"></script>
+
+<footer class="footer">
+    <img src="imagenes/footer.png">
+    <div class="containerf">
+        <div class="footer-row">
+            <div class="footer-links">
+                <h4>Compañia</h4>
+                <ul>
+                    <li><a href="#"> Nosotros</a></li>
+                    <li><a href="#"> Nuestros Servicios</a></li>
+                    <li><a href="#"> Politicas de Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Ayuda</h4>
+                <ul>
+                    <li><a href="#"> Preguntas</a></li>
+                    <li><a href="#"> Compras</a></li>
+                    <li><a href="#"> Envios</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Siguenos</h4>
+                <div class="social-links">
+                    <a href="http://www.Facebook.com/notigameshop" target="_blank"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="http://www.instagram.com/notigameshop" target="_blank"><i
+                            class="fab fa-instagram-square"></i></a>
+                    <a href="http://www.twitter.com/notigameshop " target="_blank"><i
+                            class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+</footer>   
+
+
+</body>
+</html>
